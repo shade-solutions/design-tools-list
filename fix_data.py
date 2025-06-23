@@ -147,11 +147,15 @@ def fix_tool_data():
     total_tools = sum(len(cat['tools']) for cat in database['categories'].values())
     database['meta']['total_tools'] = total_tools
     
-    # Save the updated database
+    # Save the updated database to all locations
     with open('public/design_tools_database.json', 'w', encoding='utf-8') as f:
         json.dump(database, f, indent=2, ensure_ascii=False)
     
     with open('data/design_tools_database.json', 'w', encoding='utf-8') as f:
+        json.dump(database, f, indent=2, ensure_ascii=False)
+    
+    # Also update the src/data version used for SSR
+    with open('src/data/design_tools_database.json', 'w', encoding='utf-8') as f:
         json.dump(database, f, indent=2, ensure_ascii=False)
     
     print(f"Database updated with {total_tools} total tools")
