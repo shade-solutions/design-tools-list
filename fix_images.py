@@ -18,9 +18,9 @@ def extract_domain(url):
     except:
         return None
 
-def generate_favicon_url(domain, size=32):
+def generate_favicon_url(domain, size=180):
     """Generate Google favicon URL for a domain"""
-    return f"https://www.google.com/s2/favicons?domain={domain}&sz={size}"
+    return f"https://www.google.com/s2/favicons?domain={domain}&sz=180"
 
 def fix_images():
     """Fix missing images in the database"""
