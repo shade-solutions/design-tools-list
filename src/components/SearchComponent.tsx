@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import Link from 'next/link';
 
 interface Tool {
   name: string;
@@ -61,7 +60,7 @@ export default function SearchComponent({ data }: SearchProps) {
             setIsOpen(true);
           }}
           onFocus={() => setIsOpen(true)}
-          className="w-full px-4 py-2 pl-10 pr-4 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="w-full px-4 py-2 pl-10 pr-4 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent bg-white"
         />
         <svg 
           className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" 
@@ -83,7 +82,7 @@ export default function SearchComponent({ data }: SearchProps) {
             {searchResults.length === 0 ? (
               <div className="p-4 text-center text-gray-500">
                 <div className="text-2xl mb-2">🔍</div>
-                <p>No tools found for "{query}"</p>
+                <p>No tools found for &ldquo;{query}&rdquo;</p>
               </div>
             ) : (
               <div className="py-2">
@@ -99,7 +98,7 @@ export default function SearchComponent({ data }: SearchProps) {
                     <img 
                       src={tool.image}
                       alt={`${tool.name} icon`}
-                      className="w-8 h-8 rounded"
+                      className="w-8 h-8 rounded bg-gray-50"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/placeholder-icon.svg';
@@ -110,10 +109,10 @@ export default function SearchComponent({ data }: SearchProps) {
                         <p className="font-medium text-gray-900 truncate">
                           {tool.name}
                         </p>
-                        <span className={`text-xs px-2 py-1 rounded-full ml-2 ${
-                          tool.pricing === 'FREE' ? 'bg-green-100 text-green-700' :
-                          tool.pricing === 'FREEMIUM' ? 'bg-blue-100 text-blue-700' :
-                          'bg-orange-100 text-orange-700'
+                        <span className={`text-xs px-2 py-1 rounded-md ml-2 font-medium ${
+                          tool.pricing === 'FREE' ? 'bg-gray-100 text-gray-700' :
+                          tool.pricing === 'FREEMIUM' ? 'bg-gray-100 text-gray-700' :
+                          'bg-gray-900 text-white'
                         }`}>
                           {tool.pricing}
                         </span>
@@ -128,7 +127,7 @@ export default function SearchComponent({ data }: SearchProps) {
                   </a>
                 ))}
                 {searchResults.length === 8 && (
-                  <div className="p-3 text-center text-xs text-gray-500 border-t">
+                  <div className="p-3 text-center text-xs text-gray-500 border-t border-gray-100">
                     Showing top 8 results
                   </div>
                 )}

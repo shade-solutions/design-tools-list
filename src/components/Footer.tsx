@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200 mt-16">
@@ -14,21 +16,21 @@ export default function Footer() {
           <div>
             <h4 className="font-medium text-gray-900 mb-3">Categories</h4>
             <div className="space-y-2 text-sm">
-              <a href="/category/design-tools" className="block text-gray-600 hover:text-blue-600 transition-colors">Design Tools</a>
-              <a href="/category/icons" className="block text-gray-600 hover:text-blue-600 transition-colors">Icons</a>
-              <a href="/category/illustrations" className="block text-gray-600 hover:text-blue-600 transition-colors">Illustrations</a>
-              <a href="/category/mockups" className="block text-gray-600 hover:text-blue-600 transition-colors">Mockups</a>
-              <a href="/category/typography" className="block text-gray-600 hover:text-blue-600 transition-colors">Typography</a>
+              <Link href="/category/design-tools" className="block text-gray-600 hover:text-blue-600 transition-colors">Design Tools</Link>
+              <Link href="/category/icons" className="block text-gray-600 hover:text-blue-600 transition-colors">Icons</Link>
+              <Link href="/category/illustrations" className="block text-gray-600 hover:text-blue-600 transition-colors">Illustrations</Link>
+              <Link href="/category/mockups" className="block text-gray-600 hover:text-blue-600 transition-colors">Mockups</Link>
+              <Link href="/category/typography" className="block text-gray-600 hover:text-blue-600 transition-colors">Typography</Link>
             </div>
           </div>
           <div>
             <h4 className="font-medium text-gray-900 mb-3">Resources</h4>
             <div className="space-y-2 text-sm">
-              <a href="/category/learning" className="block text-gray-600 hover:text-blue-600 transition-colors">Learning</a>
-              <a href="/category/blogs" className="block text-gray-600 hover:text-blue-600 transition-colors">Blogs</a>
-              <a href="/category/podcasts" className="block text-gray-600 hover:text-blue-600 transition-colors">Podcasts</a>
-              <a href="/category/books" className="block text-gray-600 hover:text-blue-600 transition-colors">Books</a>
-              <a href="/category/community" className="block text-gray-600 hover:text-blue-600 transition-colors">Community</a>
+              <Link href="/category/learning" className="block text-gray-600 hover:text-blue-600 transition-colors">Learning</Link>
+              <Link href="/category/blogs" className="block text-gray-600 hover:text-blue-600 transition-colors">Blogs</Link>
+              <Link href="/category/podcasts" className="block text-gray-600 hover:text-blue-600 transition-colors">Podcasts</Link>
+              <Link href="/category/books" className="block text-gray-600 hover:text-blue-600 transition-colors">Books</Link>
+              <Link href="/category/community" className="block text-gray-600 hover:text-blue-600 transition-colors">Community</Link>
             </div>
           </div>
         </div>
