@@ -1,0 +1,870 @@
+{
+  "meta": {
+    "source": "https://www.toools.design/",
+    "created_date": "2025-01-23",
+    "total_tools": 1500,
+    "description": "A comprehensive database of design tools scraped from toools.design website"
+  },
+  "categories": {
+    "design_prototyping": {
+      "name": "Design & Prototyping Tools",
+      "description": "Tools for creating designs and interactive prototypes",
+      "tools": [
+        {
+          "name": "Figma",
+          "description": "Powerful cloud based design tool to design, prototype and collaborate.",
+          "pricing": "FREEMIUM",
+          "url": "https://psxid.figma.com/htendpgaby4c",
+          "use_cases": ["UI/UX Design", "Prototyping", "Collaboration"]
+        },
+        {
+          "name": "Sketch",
+          "description": "All the tools you need for a truly collaborative design process.",
+          "pricing": "PAID",
+          "url": "https://www.sketch.com/",
+          "use_cases": ["UI/UX Design", "Vector Design", "Mac Design Tool"]
+        },
+        {
+          "name": "Penpot",
+          "description": "Open Source design and prototyping tool for Product teams.",
+          "pricing": "FREE",
+          "url": "https://penpot.app/",
+          "use_cases": ["Open Source Design", "Prototyping", "Team Collaboration"]
+        },
+        {
+          "name": "Play",
+          "description": "Native iOS design tool built for creating mobile products.",
+          "pricing": "FREE",
+          "url": "https://www.createwithplay.com/",
+          "use_cases": ["iOS Design", "Mobile UI", "Prototyping"]
+        },
+        {
+          "name": "Uizard",
+          "description": "An easy-to-use design and ideation tool - powered by AI.",
+          "pricing": "FREEMIUM",
+          "url": "https://uizard.io/",
+          "use_cases": ["AI Design", "Wireframing", "Prototyping"]
+        },
+        {
+          "name": "Visily",
+          "description": "AI-powered design software for non-designers.",
+          "pricing": "FREEMIUM",
+          "url": "https://www.visily.ai/",
+          "use_cases": ["AI Design", "Non-designer Friendly", "Wireframing"]
+        },
+        {
+          "name": "Motiff",
+          "description": "AI-powered professional UI design tool.",
+          "pricing": "FREE + PAID",
+          "url": "https://www.motiff.com/",
+          "use_cases": ["AI Design", "UI Design", "Professional Tools"]
+        },
+        {
+          "name": "Mockplus",
+          "description": "An online collaborative design tool ideal for quickly creating realistic, high-fidelity prototypes and animations.",
+          "pricing": "FREEMIUM",
+          "url": "https://www.mockplus.com/mockplus-rp",
+          "use_cases": ["Prototyping", "Animation", "Collaboration"]
+        },
+        {
+          "name": "Lunacy",
+          "description": "Free design software that keeps your flow with AI tools and built-in graphics.",
+          "pricing": "FREE",
+          "url": "https://icons8.com/lunacy",
+          "use_cases": ["Vector Design", "AI Tools", "Built-in Graphics"]
+        },
+        {
+          "name": "Pixso",
+          "description": "One-stop tool to prototype, design, program and deliver.",
+          "pricing": "FREEMIUM",
+          "url": "https://pixso.net/",
+          "use_cases": ["All-in-one Tool", "Prototyping", "Design to Code"]
+        }
+      ]
+    },
+    "ai_tools": {
+      "name": "AI Tools for Designers & Marketers",
+      "description": "AI-powered tools for design, content creation, and marketing",
+      "subcategories": {
+        "generative_ai": {
+          "name": "Generative AI Platforms & Image Generators",
+          "tools": [
+            {
+              "name": "Midjourney",
+              "description": "AI-powered platform for creating stunning digital art.",
+              "pricing": "FREE + PAID",
+              "url": "https://midjourney.com/",
+              "use_cases": ["AI Art Generation", "Digital Art", "Creative Content"]
+            },
+            {
+              "name": "DALL·E",
+              "description": "Easily translate your ideas into exceptionally accurate images.",
+              "pricing": "FREE",
+              "url": "https://openai.com/index/dall-e-3/",
+              "use_cases": ["AI Image Generation", "Creative Content", "Art Creation"]
+            },
+            {
+              "name": "Adobe Firefly",
+              "description": "A suite of generative AI models by Adobe.",
+              "pricing": "FREE",
+              "url": "https://firefly.adobe.com/",
+              "use_cases": ["AI Content Creation", "Adobe Integration", "Creative Suite"]
+            },
+            {
+              "name": "PromeAI",
+              "description": "The ultimate AI art generator.",
+              "pricing": "FREE + PAID",
+              "url": "https://www.promeai.pro/",
+              "use_cases": ["AI Art", "Digital Content", "Creative Generation"]
+            },
+            {
+              "name": "OpenArt",
+              "description": "Explore, create, and iterate with intuitive AI drawing tools and editing suite.",
+              "pricing": "FREEMIUM",
+              "url": "https://openart.ai/",
+              "use_cases": ["AI Drawing", "Art Creation", "Image Editing"]
+            },
+            {
+              "name": "Playground",
+              "description": "Create and edit images like a pro with the help of AI.",
+              "pricing": "FREEMIUM",
+              "url": "https://playgroundai.com/",
+              "use_cases": ["AI Image Editing", "Professional Tools", "Creative Content"]
+            },
+            {
+              "name": "Visual Electric",
+              "description": "An image generator built for designers.",
+              "pricing": "FREEMIUM",
+              "url": "https://visualelectric.com/",
+              "use_cases": ["Designer-focused AI", "Image Generation", "Creative Tools"]
+            },
+            {
+              "name": "Leonardo.Ai",
+              "description": "A unique suite of tools to leverage generative AI.",
+              "pricing": "FREE + PAID",
+              "url": "https://leonardo.ai/",
+              "use_cases": ["AI Art Suite", "Generative Tools", "Creative Content"]
+            },
+            {
+              "name": "Runway",
+              "description": "An applied research company building the next era of art, entertainment and human creativity.",
+              "pricing": "FREEMIUM",
+              "url": "https://runwayml.com/",
+              "use_cases": ["AI Video", "Creative Research", "Entertainment AI"]
+            }
+          ]
+        },
+        "ai_website_builders": {
+          "name": "AI Website Builder & Generator",
+          "tools": [
+            {
+              "name": "Webflow AI",
+              "description": "Build websites even faster with Webflow's new AI tools.",
+              "pricing": "FREEMIUM",
+              "url": "https://try.webflow.com/ai-features",
+              "use_cases": ["AI Web Design", "No-code", "Website Builder"]
+            },
+            {
+              "name": "Framer AI",
+              "description": "Design better sites with AI. Start for free.",
+              "pricing": "FREEMIUM",
+              "url": "https://www.framer.com/features/ai/",
+              "use_cases": ["AI Site Design", "Interactive Design", "Web Development"]
+            },
+            {
+              "name": "Dorik",
+              "description": "Create beautiful websites from just a prompt.",
+              "pricing": "PAID",
+              "url": "https://dorik.com/",
+              "use_cases": ["AI Website Creation", "Prompt-based Design", "Quick Setup"]
+            },
+            {
+              "name": "10Web",
+              "description": "Build your website in 1 minute with AI.",
+              "pricing": "PAID",
+              "url": "https://10web.io/ai-website-builder/",
+              "use_cases": ["Fast AI Building", "Website Creation", "Quick Setup"]
+            }
+          ]
+        },
+        "ai_ui_generation": {
+          "name": "UI Generation",
+          "tools": [
+            {
+              "name": "Figma AI",
+              "description": "Your creativity, unblocked with Figma AI.",
+              "pricing": "BETA",
+              "url": "https://www.figma.com/ai/",
+              "use_cases": ["AI UI Design", "Figma Integration", "Design Assistance"]
+            },
+            {
+              "name": "Galileo AI",
+              "description": "A UI generation platform for easy and fast design ideation.",
+              "pricing": "PAID",
+              "url": "https://www.usegalileo.ai/",
+              "use_cases": ["UI Generation", "Design Ideation", "Fast Prototyping"]
+            },
+            {
+              "name": "Uizard Autodesigner",
+              "description": "Generate multi screen mockups for apps and websites from simple text prompts.",
+              "pricing": "PAID",
+              "url": "https://uizard.io/autodesigner/",
+              "use_cases": ["AI Mockups", "Text to UI", "App Design"]
+            }
+          ]
+        }
+      }
+    },
+    "ux_tools": {
+      "name": "UX Design Tools",
+      "description": "Tools for user experience design, research, and testing",
+      "subcategories": {
+        "prototyping": {
+          "name": "Prototyping Tools",
+          "tools": [
+            {
+              "name": "Marvel",
+              "description": "All-in-one platform to wireframe, prototype and design digital products.",
+              "pricing": "FREEMIUM",
+              "url": "https://marvelapp.com/",
+              "use_cases": ["Wireframing", "Prototyping", "Digital Products"]
+            },
+            {
+              "name": "Principle",
+              "description": "Animate your designs and build high fidelity interactive prototypes and user flows.",
+              "pricing": "PAID",
+              "url": "https://principleformac.com/",
+              "use_cases": ["Animation", "Interactive Prototypes", "User Flows"]
+            },
+            {
+              "name": "Proto.io",
+              "description": "Create advanced high fidelity interactive prototypes without coding.",
+              "pricing": "PAID",
+              "url": "https://proto.io/",
+              "use_cases": ["High Fidelity Prototypes", "No Code", "Interactive Design"]
+            },
+            {
+              "name": "ProtoPie",
+              "description": "Intuitive tool to prototype and perfect ideas.",
+              "pricing": "FREEMIUM",
+              "url": "https://www.protopie.io/",
+              "use_cases": ["Advanced Prototyping", "Sensor Integration", "IoT Prototypes"]
+            },
+            {
+              "name": "Origami Studio",
+              "description": "Prototyping tool by designers at Facebook to explore, iterate, and test your ideas.",
+              "pricing": "FREE",
+              "url": "https://origami.design/",
+              "use_cases": ["Facebook Tool", "Advanced Prototyping", "Iteration"]
+            }
+          ]
+        },
+        "wireframing": {
+          "name": "Wireframing Tools",
+          "tools": [
+            {
+              "name": "Balsamiq",
+              "description": "Easily create low fidelity wireframes and collaborate on them.",
+              "pricing": "PAID",
+              "url": "https://balsamiq.com/",
+              "use_cases": ["Low Fidelity Wireframes", "Collaboration", "Rapid Sketching"]
+            },
+            {
+              "name": "Axure",
+              "description": "Plan, wireframe, prototype, and hand off to developers, all without code.",
+              "pricing": "PAID",
+              "url": "https://www.axure.com/",
+              "use_cases": ["Advanced Wireframing", "Documentation", "Developer Handoff"]
+            },
+            {
+              "name": "MockFlow",
+              "description": "End to end solution for product design.",
+              "pricing": "FREEMIUM",
+              "url": "https://mockflow.com/",
+              "use_cases": ["Product Design", "Wireframing", "End-to-end Solution"]
+            },
+            {
+              "name": "Wireframe.cc",
+              "description": "A minimal design tool fine tuned for wireframing.",
+              "pricing": "FREEMIUM",
+              "url": "https://wireframe.cc/",
+              "use_cases": ["Minimal Wireframing", "Simple Tool", "Quick Sketches"]
+            }
+          ]
+        },
+        "user_testing": {
+          "name": "User Testing & Feedback",
+          "tools": [
+            {
+              "name": "Maze",
+              "description": "User testing platform that turns your prototype into actionable insights from real users.",
+              "pricing": "FREEMIUM",
+              "url": "https://maze.design/",
+              "use_cases": ["User Testing", "Prototype Testing", "User Insights"]
+            },
+            {
+              "name": "Smartlook",
+              "description": "Analyze user behavior in ways never possible before.",
+              "pricing": "FREEMIUM",
+              "url": "https://www.smartlook.com/",
+              "use_cases": ["User Behavior Analysis", "Session Recording", "Heatmaps"]
+            },
+            {
+              "name": "Helio",
+              "description": "A survey platform for asking design, product, and marketing questions.",
+              "pricing": "PAID",
+              "url": "https://helio.app/",
+              "use_cases": ["Design Surveys", "Product Research", "User Feedback"]
+            },
+            {
+              "name": "Lookback",
+              "description": "Remote user interviews with testers from around the world.",
+              "pricing": "PAID",
+              "url": "https://lookback.io/",
+              "use_cases": ["Remote User Testing", "User Interviews", "Global Testing"]
+            }
+          ]
+        }
+      ]
+    },
+    "color_tools": {
+      "name": "Color Tools",
+      "description": "Tools for color inspiration, palette generation, and color management",
+      "subcategories": {
+        "color_apps": {
+          "name": "Color Apps",
+          "tools": [
+            {
+              "name": "Adobe Color",
+              "description": "Create color themes, explore color inspiration and find color trends.",
+              "pricing": "FREE",
+              "url": "https://color.adobe.com/",
+              "use_cases": ["Color Themes", "Adobe Integration", "Color Trends"]
+            },
+            {
+              "name": "Colormind",
+              "description": "AI powered color combinations based on your preferences.",
+              "pricing": "FREE",
+              "url": "http://colormind.io/",
+              "use_cases": ["AI Color Palettes", "Color Combinations", "Preference-based"]
+            },
+            {
+              "name": "ColorSpace",
+              "description": "Generate nice color palettes.",
+              "pricing": "FREE",
+              "url": "https://mycolor.space/",
+              "use_cases": ["Palette Generation", "Color Harmony", "Quick Colors"]
+            },
+            {
+              "name": "Coolors",
+              "description": "Create the perfect palette or get inspired by thousands of beautiful color schemes.",
+              "pricing": "FREE",
+              "url": "https://coolors.co/palettes/trending",
+              "use_cases": ["Popular Tool", "Color Schemes", "Palette Generator"]
+            },
+            {
+              "name": "Khroma",
+              "description": "Discover, search, and save color combos and palettes powered by AI.",
+              "pricing": "FREE",
+              "url": "http://khroma.co/",
+              "use_cases": ["AI Color Discovery", "Color Learning", "Personal Palettes"]
+            }
+          ]
+        },
+        "color_combinations": {
+          "name": "Color Combinations",
+          "tools": [
+            {
+              "name": "Color Hunt",
+              "description": "Free and open platform for color inspiration with thousands of trendy hand-picked color palettes.",
+              "pricing": "FREE",
+              "url": "https://colorhunt.co/",
+              "use_cases": ["Color Inspiration", "Trendy Palettes", "Community Colors"]
+            },
+            {
+              "name": "Happy Hues",
+              "description": "Curated colors in context.",
+              "pricing": "FREE",
+              "url": "https://www.happyhues.co/",
+              "use_cases": ["Colors in Context", "Curated Palettes", "Real Examples"]
+            },
+            {
+              "name": "Muzli Colors",
+              "description": "Create beautiful color schemes that works.",
+              "pricing": "FREE",
+              "url": "https://colors.muz.li/",
+              "use_cases": ["Beautiful Schemes", "Working Colors", "Muzli Integration"]
+            }
+          ]
+        },
+        "color_picker": {
+          "name": "Color Picker",
+          "tools": [
+            {
+              "name": "ColorSlurp",
+              "description": "The ultimate color picker for Mac users.",
+              "pricing": "FREEMIUM",
+              "url": "https://colorslurp.com/",
+              "use_cases": ["Mac Color Picker", "Professional Tool", "Color Management"]
+            },
+            {
+              "name": "Sip",
+              "description": "A professional color picker which allows you to collect, organize, edit and share colors on mac.",
+              "pricing": "PAID",
+              "url": "https://sipapp.io/",
+              "use_cases": ["Professional Mac Tool", "Color Organization", "Color Sharing"]
+            },
+            {
+              "name": "Pika",
+              "description": "An open-source colour picker app for macOS.",
+              "pricing": "FREE",
+              "url": "https://superhighfives.com/pika",
+              "use_cases": ["Open Source", "Mac Color Picker", "Simple Tool"]
+            }
+          ]
+        }
+      }
+    },
+    "icons": {
+      "name": "Icon Libraries & Resources",
+      "description": "Free and paid icon libraries, tools, and resources",
+      "subcategories": {
+        "free_icons": {
+          "name": "Free Open Source Icons",
+          "tools": [
+            {
+              "name": "Material Symbols",
+              "description": "Over 2,500 glyphs in a single font file with a wide range of design variants.",
+              "pricing": "FREE",
+              "url": "https://fonts.google.com/icons",
+              "use_cases": ["Google Icons", "Material Design", "System Icons"]
+            },
+            {
+              "name": "Heroicons",
+              "description": "Beautiful hand-crafted SVG icons.",
+              "pricing": "FREE",
+              "url": "https://heroicons.com/",
+              "use_cases": ["Hand-crafted", "SVG Icons", "Web Development"]
+            },
+            {
+              "name": "Lucide",
+              "description": "Beautiful & consistent icon toolkit made by the community.",
+              "pricing": "FREE",
+              "url": "https://lucide.dev/",
+              "use_cases": ["Community Icons", "Consistent Design", "Open Source"]
+            },
+            {
+              "name": "Feather",
+              "description": "Simply beautiful open source icons.",
+              "pricing": "FREE",
+              "url": "https://feathericons.com/",
+              "use_cases": ["Simple Icons", "Beautiful Design", "Popular Choice"]
+            },
+            {
+              "name": "Phosphor Icons",
+              "description": "A flexible icon family for everyone.",
+              "pricing": "FREE",
+              "url": "https://phosphoricons.com/",
+              "use_cases": ["Flexible Icons", "Icon Family", "Multiple Weights"]
+            },
+            {
+              "name": "Tabler Icons",
+              "description": "Over 3450 pixel-perfect icons for your web designs.",
+              "pricing": "FREE",
+              "url": "https://tabler-icons.io/",
+              "use_cases": ["Pixel Perfect", "Large Collection", "Web Design"]
+            }
+          ]
+        },
+        "pro_icons": {
+          "name": "Pro Icons",
+          "tools": [
+            {
+              "name": "Streamline",
+              "description": "The world's largest and most consistent UI design icon sets.",
+              "pricing": "FREE + PAID",
+              "url": "https://home.streamlinehq.com/",
+              "use_cases": ["Largest Collection", "Consistent Design", "Professional Quality"]
+            },
+            {
+              "name": "Icons8",
+              "description": "Large icon packs of over 10k icons, so you can find visually consistent icons for all your designs.",
+              "pricing": "FREE + PAID",
+              "url": "https://icons8.com/icons/",
+              "use_cases": ["Large Collection", "Visual Consistency", "Multiple Styles"]
+            },
+            {
+              "name": "Iconfinder",
+              "description": "High quality vector icon sets and collections.",
+              "pricing": "FREE + PAID",
+              "url": "https://www.iconfinder.com/",
+              "use_cases": ["High Quality", "Vector Icons", "Professional Sets"]
+            },
+            {
+              "name": "Noun Project",
+              "description": "A diverse and extensive icon collection.",
+              "pricing": "FREE + PAID",
+              "url": "https://thenounproject.com/",
+              "use_cases": ["Diverse Collection", "Extensive Library", "Community Icons"]
+            }
+          ]
+        }
+      ]
+    },
+    "illustrations": {
+      "name": "Illustrations",
+      "description": "Free and premium illustration resources and tools",
+      "subcategories": {
+        "free_illustrations": {
+          "name": "Free Open Source Illustrations",
+          "tools": [
+            {
+              "name": "unDraw",
+              "description": "Lot´s of free illustration that match with your brand colors on the fly.",
+              "pricing": "FREE",
+              "url": "https://undraw.co/illustrations",
+              "use_cases": ["Brand Color Matching", "Free Illustrations", "Customizable"]
+            },
+            {
+              "name": "DrawKit",
+              "description": "Beautiful, free illustrations. Updated weekly.",
+              "pricing": "FREE + PAID",
+              "url": "https://www.drawkit.com/",
+              "use_cases": ["Beautiful Illustrations", "Weekly Updates", "High Quality"]
+            },
+            {
+              "name": "Humaaans",
+              "description": "Mix-&-match illustrations of people with a design library by Pablo Stanley.",
+              "pricing": "FREE",
+              "url": "https://www.humaaans.com/",
+              "use_cases": ["People Illustrations", "Mix and Match", "Character Design"]
+            },
+            {
+              "name": "Open Peeps",
+              "description": "A hand-drawn illustration library.",
+              "pricing": "FREE",
+              "url": "https://www.openpeeps.com/",
+              "use_cases": ["Hand-drawn Style", "Character Library", "Diverse People"]
+            },
+            {
+              "name": "Storyset",
+              "description": "Awesome free customizable illustrations for your next project.",
+              "pricing": "FREE",
+              "url": "https://storyset.com/",
+              "use_cases": ["Customizable", "Animated Options", "Story-based"]
+            }
+          ]
+        },
+        "3d_illustrations": {
+          "name": "3D Illustration Sets",
+          "tools": [
+            {
+              "name": "3D Icons",
+              "description": "4000+ 3D icons & 3D characters in 4K resolution.",
+              "pricing": "FREE + PAID",
+              "url": "https://www.3dicons.com/",
+              "use_cases": ["3D Icons", "4K Resolution", "Character Design"]
+            },
+            {
+              "name": "Shapefest",
+              "description": "A massive library of 3D Illustrations.",
+              "pricing": "PAID",
+              "url": "https://www.shapefest.com/",
+              "use_cases": ["3D Library", "Professional Quality", "Diverse Styles"]
+            }
+          ]
+        }
+      ]
+    },
+    "typography": {
+      "name": "Typography",
+      "description": "Font libraries, typography tools, and inspiration resources",
+      "subcategories": {
+        "font_libraries": {
+          "name": "Font Libraries",
+          "tools": [
+            {
+              "name": "Google Fonts",
+              "description": "Making the web more beautiful, fast, and open through great typography.",
+              "pricing": "FREE",
+              "url": "https://fonts.google.com/",
+              "use_cases": ["Web Fonts", "Free Fonts", "Wide Selection"]
+            },
+            {
+              "name": "Fontshare",
+              "description": "A free fonts service, making quality fonts accessible to all.",
+              "pricing": "FREE",
+              "url": "https://www.fontshare.com/",
+              "use_cases": ["Quality Fonts", "Free Access", "Professional Fonts"]
+            },
+            {
+              "name": "DaFont",
+              "description": "Huge collection of free fonts nicely categorized and always up to date.",
+              "pricing": "FREE",
+              "url": "https://www.dafont.com/",
+              "use_cases": ["Large Collection", "Categorized", "Popular Resource"]
+            }
+          ]
+        },
+        "font_inspiration": {
+          "name": "Font Inspiration",
+          "tools": [
+            {
+              "name": "Typewolf",
+              "description": "Independent type resources, type trends and the best type combinations.",
+              "pricing": "FREE",
+              "url": "https://www.typewolf.com/",
+              "use_cases": ["Type Trends", "Font Combinations", "Typography Resources"]
+            },
+            {
+              "name": "FontPair",
+              "description": "FontPair is a typography site dedicated to helping creators use beautiful typography for their creative projects.",
+              "pricing": "FREE",
+              "url": "https://fontpair.co/",
+              "use_cases": ["Font Pairing", "Typography Help", "Creative Projects"]
+            },
+            {
+              "name": "Fontjoy",
+              "description": "Font pairing made simple. Generate font combinations with deep learning.",
+              "pricing": "FREE",
+              "url": "https://fontjoy.com/",
+              "use_cases": ["AI Font Pairing", "Deep Learning", "Simple Tool"]
+            }
+          ]
+        }
+      ]
+    },
+    "stock_photos": {
+      "name": "Stock Photos & Videos",
+      "description": "Free and premium stock photography and video resources",
+      "subcategories": {
+        "free_stock_photos": {
+          "name": "Free Stock Photos",
+          "tools": [
+            {
+              "name": "Unsplash",
+              "description": "Over 2 million free high-resolution images by the world's most generous community of photographers.",
+              "pricing": "FREE",
+              "url": "https://unsplash.com/",
+              "use_cases": ["High Resolution", "Community Photos", "Popular Choice"]
+            },
+            {
+              "name": "Pexels",
+              "description": "Big collection of free stock photos and videos.",
+              "pricing": "FREE",
+              "url": "https://www.pexels.com/",
+              "use_cases": ["Photos and Videos", "Large Collection", "High Quality"]
+            },
+            {
+              "name": "Pixabay",
+              "description": "Over 1 million+ free stock photos and videos shared by a talented community.",
+              "pricing": "FREE",
+              "url": "https://pixabay.com/",
+              "use_cases": ["Community Content", "Photos and Videos", "Large Collection"]
+            },
+            {
+              "name": "Nappy",
+              "description": "Beautiful photos of Black and Brown people, for free.",
+              "pricing": "FREE",
+              "url": "https://www.nappy.co/",
+              "use_cases": ["Diversity", "Black and Brown People", "Representation"]
+            }
+          ]
+        },
+        "ai_stock_photos": {
+          "name": "AI Generated Stock Photos",
+          "tools": [
+            {
+              "name": "Lummi",
+              "description": "Free stock photos powered by robots everywhere.",
+              "pricing": "FREE",
+              "url": "https://www.lummi.ai/",
+              "use_cases": ["AI Generated", "Robot Powered", "Free Photos"]
+            },
+            {
+              "name": "Generated Photos",
+              "description": "Unique, worry-free model photos generated by AI.",
+              "pricing": "FREE + PAID",
+              "url": "https://generated.photos/",
+              "use_cases": ["AI Models", "Unique Photos", "No Model Releases"]
+            }
+          ]
+        }
+      ]
+    },
+    "mockups_ui_kits": {
+      "name": "Mockups & UI Kits",
+      "description": "Device mockups, product mockups, and UI design resources",
+      "subcategories": {
+        "device_mockups": {
+          "name": "Device Mockups",
+          "tools": [
+            {
+              "name": "Rotato",
+              "description": "Mac app that lets you create, capture, and animate 3D mockups for your digital designs in seconds.",
+              "pricing": "PAID",
+              "url": "https://rotato.app/",
+              "use_cases": ["3D Mockups", "Mac App", "Animation"]
+            },
+            {
+              "name": "Shots",
+              "description": "Create amazing mockups for your presentations, social media, and more.",
+              "pricing": "FREE + PAID",
+              "url": "https://shots.so/",
+              "use_cases": ["Presentation Mockups", "Social Media", "Easy Creation"]
+            },
+            {
+              "name": "Device Shots",
+              "description": "Create free device mockups in seconds.",
+              "pricing": "FREE",
+              "url": "https://deviceshots.com/",
+              "use_cases": ["Quick Mockups", "Free Tool", "Device Frames"]
+            }
+          ]
+        },
+        "ui_kits": {
+          "name": "Popular UI Kits",
+          "tools": [
+            {
+              "name": "Untitled UI",
+              "description": "The largest UI kit and design system for Figma in the world.",
+              "pricing": "PAID",
+              "url": "https://www.untitledui.com/",
+              "use_cases": ["Largest UI Kit", "Figma", "Design System"]
+            },
+            {
+              "name": "Material Design",
+              "description": "The latest version of Google's open-source design system.",
+              "pricing": "FREE",
+              "url": "https://m3.material.io/",
+              "use_cases": ["Google Design System", "Open Source", "Material Design"]
+            }
+          ]
+        }
+      ]
+    },
+    "inspiration": {
+      "name": "Design Inspiration",
+      "description": "Websites and platforms for design inspiration and showcase",
+      "subcategories": {
+        "ui_inspiration": {
+          "name": "UI Inspiration",
+          "tools": [
+            {
+              "name": "Mobbin",
+              "description": "Save hours of UI & UX research with a library of 100,000+ fully searchable screenshots.",
+              "pricing": "FREE + PAID",
+              "url": "https://mobbin.com/",
+              "use_cases": ["UI Research", "Screenshot Library", "Searchable Database"]
+            },
+            {
+              "name": "Dribbble",
+              "description": "Community of designers sharing screenshots of their work, process, and projects.",
+              "pricing": "FREE",
+              "url": "https://dribbble.com/shots/popular",
+              "use_cases": ["Design Community", "Work Showcase", "Popular Platform"]
+            },
+            {
+              "name": "Collect UI",
+              "description": "Daily inspiration collected from daily ui archive and beyond. Hand picked, updating daily.",
+              "pricing": "FREE",
+              "url": "http://collectui.com/",
+              "use_cases": ["Daily Inspiration", "Hand-picked", "UI Archive"]
+            }
+          ]
+        },
+        "web_inspiration": {
+          "name": "Web Design Inspiration",
+          "tools": [
+            {
+              "name": "awwwards",
+              "description": "Browse through tons of the most innovative, creative and eye candy websites.",
+              "pricing": "FREE",
+              "url": "https://www.awwwards.com/",
+              "use_cases": ["Innovative Websites", "Awards Platform", "Creative Showcase"]
+            },
+            {
+              "name": "Godly",
+              "description": "The most godlike web design inspiration.",
+              "pricing": "FREE",
+              "url": "https://godly.website/",
+              "use_cases": ["Web Design", "Curated Collection", "High Quality"]
+            },
+            {
+              "name": "SiteInspire",
+              "description": "Showcase of the finest web and interactive design.",
+              "pricing": "FREE",
+              "url": "https://www.siteinspire.com/",
+              "use_cases": ["Web Design", "Interactive Design", "Showcase"]
+            }
+          ]
+        }
+      }
+    },
+    "website_builders": {
+      "name": "Website Builders",
+      "description": "No-code and low-code website building platforms",
+      "subcategories": {
+        "no_code_builders": {
+          "name": "No-Code Website Builders",
+          "tools": [
+            {
+              "name": "Webflow",
+              "description": "Build better websites, faster. Without coding.",
+              "pricing": "FREEMIUM",
+              "url": "https://try.webflow.com/via-toools",
+              "use_cases": ["Professional Web Design", "No Code", "Popular Choice"]
+            },
+            {
+              "name": "Framer",
+              "description": "Design and publish your dream site. Zero code, maximum speed.",
+              "pricing": "FREEMIUM",
+              "url": "https://www.framer.com/",
+              "use_cases": ["Interactive Design", "Zero Code", "Fast Publishing"]
+            },
+            {
+              "name": "Squarespace",
+              "description": "Create stunning websites using industry-leading templates and designer fonts.",
+              "pricing": "PAID",
+              "url": "https://squarespace.syuh.net/Zd7ELk",
+              "use_cases": ["Stunning Templates", "Designer Fonts", "Professional Sites"]
+            },
+            {
+              "name": "Wix Studio",
+              "description": "An end-to-end platform for agencies to create exceptional sites with extreme efficiency.",
+              "pricing": "PAID",
+              "url": "https://wix.pxf.io/c/5904916/2248274/25616",
+              "use_cases": ["Agency Platform", "Exceptional Sites", "Efficiency"]
+            }
+          ]
+        },
+        "app_builders": {
+          "name": "No-Code App Builders",
+          "tools": [
+            {
+              "name": "Bubble",
+              "description": "Powerful no-code platform for creating web apps without code.",
+              "pricing": "FREEMIUM",
+              "url": "https://bubble.io/responsive-design",
+              "use_cases": ["Web Apps", "No Code", "Powerful Platform"]
+            },
+            {
+              "name": "Glide",
+              "description": "Turn your data into software. No coding or design skills needed.",
+              "pricing": "FREEMIUM",
+              "url": "https://join.glideapps.com/5yrk0ywwrbos",
+              "use_cases": ["Data to Software", "No Skills Needed", "Easy Setup"]
+            },
+            {
+              "name": "Adalo",
+              "description": "Turn your app idea into reality without coding.",
+              "pricing": "FREEMIUM",
+              "url": "https://www.adalo.com/",
+              "use_cases": ["App Ideas", "No Coding", "Mobile Apps"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
