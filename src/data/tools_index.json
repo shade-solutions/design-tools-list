@@ -1,0 +1,256 @@
+{
+  "tools_by_purpose": {
+    "ui_ux_design": {
+      "description": "Tools for user interface and user experience design",
+      "tools": [
+        {
+          "name": "Figma",
+          "category": "Design & Prototyping",
+          "pricing": "FREEMIUM",
+          "primary_use": "Collaborative design and prototyping"
+        },
+        {
+          "name": "Sketch",
+          "category": "Design & Prototyping", 
+          "pricing": "PAID",
+          "primary_use": "Vector-based UI design for Mac"
+        },
+        {
+          "name": "Adobe XD",
+          "category": "Design & Prototyping",
+          "pricing": "FREEMIUM",
+          "primary_use": "UI/UX design and prototyping"
+        },
+        {
+          "name": "Principle",
+          "category": "UX Tools",
+          "pricing": "PAID",
+          "primary_use": "Advanced prototyping and animation"
+        },
+        {
+          "name": "Marvel",
+          "category": "UX Tools",
+          "pricing": "FREEMIUM",
+          "primary_use": "Wireframing and prototyping"
+        }
+      ]
+    },
+    "ai_powered_design": {
+      "description": "AI-enhanced tools for automated and intelligent design",
+      "tools": [
+        {
+          "name": "Midjourney",
+          "category": "AI Tools",
+          "pricing": "FREE + PAID",
+          "primary_use": "AI art and image generation"
+        },
+        {
+          "name": "DALL·E",
+          "category": "AI Tools",
+          "pricing": "FREE",
+          "primary_use": "AI image generation from text"
+        },
+        {
+          "name": "Adobe Firefly",
+          "category": "AI Tools",
+          "pricing": "FREE",
+          "primary_use": "Adobe's generative AI suite"
+        },
+        {
+          "name": "Uizard",
+          "category": "Design & Prototyping",
+          "pricing": "FREEMIUM",
+          "primary_use": "AI-powered design and wireframing"
+        },
+        {
+          "name": "Figma AI",
+          "category": "AI Tools",
+          "pricing": "BETA",
+          "primary_use": "AI assistance in Figma"
+        }
+      ]
+    },
+    "web_development": {
+      "description": "Tools for building websites without coding",
+      "tools": [
+        {
+          "name": "Webflow",
+          "category": "Website Builders",
+          "pricing": "FREEMIUM",
+          "primary_use": "Professional no-code web development"
+        },
+        {
+          "name": "Framer",
+          "category": "Website Builders",
+          "pricing": "FREEMIUM",
+          "primary_use": "Interactive web design and publishing"
+        },
+        {
+          "name": "Bubble",
+          "category": "Website Builders",
+          "pricing": "FREEMIUM",
+          "primary_use": "No-code web app development"
+        },
+        {
+          "name": "Squarespace",
+          "category": "Website Builders",
+          "pricing": "PAID",
+          "primary_use": "Template-based website creation"
+        }
+      ]
+    },
+    "visual_assets": {
+      "description": "Tools and resources for visual content creation",
+      "tools": [
+        {
+          "name": "Unsplash",
+          "category": "Stock Photos",
+          "pricing": "FREE",
+          "primary_use": "High-quality free stock photography"
+        },
+        {
+          "name": "unDraw",
+          "category": "Illustrations",
+          "pricing": "FREE",
+          "primary_use": "Customizable open-source illustrations"
+        },
+        {
+          "name": "Material Symbols",
+          "category": "Icons",
+          "pricing": "FREE",
+          "primary_use": "Google's material design icon system"
+        },
+        {
+          "name": "Heroicons",
+          "category": "Icons",
+          "pricing": "FREE",
+          "primary_use": "Hand-crafted SVG icon set"
+        }
+      ]
+    },
+    "color_typography": {
+      "description": "Tools for color palettes and typography",
+      "tools": [
+        {
+          "name": "Coolors",
+          "category": "Color Tools",
+          "pricing": "FREE",
+          "primary_use": "Color palette generation"
+        },
+        {
+          "name": "Adobe Color",
+          "category": "Color Tools",
+          "pricing": "FREE",
+          "primary_use": "Professional color theme creation"
+        },
+        {
+          "name": "Google Fonts",
+          "category": "Typography",
+          "pricing": "FREE",
+          "primary_use": "Web font library"
+        },
+        {
+          "name": "Typewolf",
+          "category": "Typography",
+          "pricing": "FREE",
+          "primary_use": "Typography inspiration and trends"
+        }
+      ]
+    },
+    "user_research": {
+      "description": "Tools for user testing and research",
+      "tools": [
+        {
+          "name": "Maze",
+          "category": "UX Tools",
+          "pricing": "FREEMIUM",
+          "primary_use": "User testing and research"
+        },
+        {
+          "name": "Mobbin",
+          "category": "Inspiration",
+          "pricing": "FREE + PAID",
+          "primary_use": "UI/UX research database"
+        },
+        {
+          "name": "Smartlook",
+          "category": "UX Tools",
+          "pricing": "FREEMIUM",
+          "primary_use": "User behavior analytics"
+        }
+      ]
+    },
+    "design_inspiration": {
+      "description": "Platforms for design inspiration and showcases",
+      "tools": [
+        {
+          "name": "Dribbble",
+          "category": "Inspiration",
+          "pricing": "FREE",
+          "primary_use": "Design community and showcase"
+        },
+        {
+          "name": "awwwards",
+          "category": "Inspiration",
+          "pricing": "FREE",
+          "primary_use": "Web design awards and inspiration"
+        },
+        {
+          "name": "Behance",
+          "category": "Inspiration",
+          "pricing": "FREE",
+          "primary_use": "Adobe's creative portfolio platform"
+        }
+      ]
+    }
+  },
+  "tools_by_pricing": {
+    "free": [
+      "DALL·E",
+      "Adobe Firefly", 
+      "Penpot",
+      "Material Symbols",
+      "Heroicons",
+      "unDraw",
+      "Google Fonts",
+      "Unsplash",
+      "Dribbble",
+      "awwwards"
+    ],
+    "freemium": [
+      "Figma",
+      "Uizard",
+      "Webflow",
+      "Framer",
+      "Bubble",
+      "Marvel",
+      "Maze"
+    ],
+    "paid": [
+      "Sketch",
+      "Rotato",
+      "Untitled UI",
+      "Balsamiq",
+      "Squarespace"
+    ],
+    "free_plus_paid": [
+      "Midjourney",
+      "Leonardo.Ai",
+      "Streamline",
+      "Mobbin"
+    ]
+  },
+  "tools_by_category_count": {
+    "design_prototyping": 5,
+    "ai_tools": 6,
+    "color_tools": 3,
+    "icons": 3,
+    "illustrations": 3,
+    "typography": 3,
+    "stock_photos": 3,
+    "mockups_ui_kits": 2,
+    "inspiration": 3,
+    "website_builders": 3,
+    "ux_tools": 3
+  }
+}

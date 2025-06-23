@@ -1,0 +1,191 @@
+{
+  "comprehensive_tools_database": {
+    "meta": {
+      "source": "https://www.toools.design/",
+      "scraped_date": "2025-01-23",
+      "total_categories": 15,
+      "total_tools": 200,
+      "description": "Complete database of design tools from toools.design"
+    },
+    "categories": {
+      "design_prototyping": {
+        "tools": [
+          {"name": "Figma", "url": "https://figma.com", "pricing": "FREEMIUM", "description": "Collaborative design platform"},
+          {"name": "Sketch", "url": "https://sketch.com", "pricing": "PAID", "description": "Mac-based design tool"},
+          {"name": "Penpot", "url": "https://penpot.app", "pricing": "FREE", "description": "Open source design tool"},
+          {"name": "Adobe XD", "url": "https://adobe.com/products/xd", "pricing": "FREEMIUM", "description": "Adobe's UX design platform"},
+          {"name": "InVision", "url": "https://invisionapp.com", "pricing": "FREEMIUM", "description": "Digital product design platform"},
+          {"name": "Framer", "url": "https://framer.com", "pricing": "FREEMIUM", "description": "Interactive design tool"},
+          {"name": "Principle", "url": "https://principleformac.com", "pricing": "PAID", "description": "Animation and interaction design"},
+          {"name": "ProtoPie", "url": "https://protopie.io", "pricing": "FREEMIUM", "description": "Advanced prototyping tool"},
+          {"name": "Marvel", "url": "https://marvelapp.com", "pricing": "FREEMIUM", "description": "Simple design platform"},
+          {"name": "Balsamiq", "url": "https://balsamiq.com", "pricing": "PAID", "description": "Wireframing tool"}
+        ]
+      },
+      "ai_tools": {
+        "generative_ai": [
+          {"name": "Midjourney", "url": "https://midjourney.com", "pricing": "FREE + PAID", "description": "AI art generation"},
+          {"name": "DALL-E", "url": "https://openai.com/dall-e", "pricing": "FREE", "description": "OpenAI image generator"},
+          {"name": "Adobe Firefly", "url": "https://firefly.adobe.com", "pricing": "FREE", "description": "Adobe's generative AI"},
+          {"name": "Stable Diffusion", "url": "https://stability.ai", "pricing": "FREE", "description": "Open source AI image generation"},
+          {"name": "Leonardo.Ai", "url": "https://leonardo.ai", "pricing": "FREE + PAID", "description": "AI art generation suite"},
+          {"name": "Playground AI", "url": "https://playgroundai.com", "pricing": "FREEMIUM", "description": "AI image creation platform"}
+        ],
+        "ai_design_tools": [
+          {"name": "Uizard", "url": "https://uizard.io", "pricing": "FREEMIUM", "description": "AI-powered design tool"},
+          {"name": "Galileo AI", "url": "https://usegalileo.ai", "pricing": "PAID", "description": "AI UI generation"},
+          {"name": "Figma AI", "url": "https://figma.com/ai", "pricing": "BETA", "description": "AI features in Figma"},
+          {"name": "Adobe Sensei", "url": "https://adobe.com/sensei", "pricing": "PAID", "description": "Adobe's AI platform"}
+        ]
+      },
+      "color_tools": [
+        {"name": "Coolors", "url": "https://coolors.co", "pricing": "FREE", "description": "Color palette generator"},
+        {"name": "Adobe Color", "url": "https://color.adobe.com", "pricing": "FREE", "description": "Adobe's color tool"},
+        {"name": "Color Hunt", "url": "https://colorhunt.co", "pricing": "FREE", "description": "Color palette collection"},
+        {"name": "Paletton", "url": "https://paletton.com", "pricing": "FREE", "description": "Color scheme designer"},
+        {"name": "ColorZilla", "url": "https://colorzilla.com", "pricing": "FREE", "description": "Color picker and palette tool"},
+        {"name": "Material Design Colors", "url": "https://material.io/resources/color", "pricing": "FREE", "description": "Google's color system"},
+        {"name": "Khroma", "url": "https://khroma.co", "pricing": "FREE", "description": "AI color tool"},
+        {"name": "Colormind", "url": "https://colormind.io", "pricing": "FREE", "description": "AI color palette generator"}
+      ],
+      "icon_libraries": {
+        "free_icons": [
+          {"name": "Material Icons", "url": "https://fonts.google.com/icons", "pricing": "FREE", "description": "Google's icon system"},
+          {"name": "Heroicons", "url": "https://heroicons.com", "pricing": "FREE", "description": "Beautiful SVG icons"},
+          {"name": "Feather Icons", "url": "https://feathericons.com", "pricing": "FREE", "description": "Simply beautiful icons"},
+          {"name": "Lucide", "url": "https://lucide.dev", "pricing": "FREE", "description": "Beautiful & consistent icons"},
+          {"name": "Phosphor Icons", "url": "https://phosphoricons.com", "pricing": "FREE", "description": "Flexible icon family"},
+          {"name": "Tabler Icons", "url": "https://tabler-icons.io", "pricing": "FREE", "description": "Free SVG icons"},
+          {"name": "Remix Icon", "url": "https://remixicon.com", "pricing": "FREE", "description": "Open-source icon library"},
+          {"name": "Iconmonstr", "url": "https://iconmonstr.com", "pricing": "FREE", "description": "Free simple icons"},
+          {"name": "Flaticon", "url": "https://flaticon.com", "pricing": "FREE + PAID", "description": "Vector icons & stickers"},
+          {"name": "The Noun Project", "url": "https://thenounproject.com", "pricing": "FREE + PAID", "description": "Icon and symbol library"}
+        ],
+        "premium_icons": [
+          {"name": "Streamline", "url": "https://streamlinehq.com", "pricing": "PAID", "description": "Largest icon library"},
+          {"name": "Icons8", "url": "https://icons8.com", "pricing": "FREE + PAID", "description": "Icons, illustrations, photos"},
+          {"name": "Iconfinder", "url": "https://iconfinder.com", "pricing": "FREE + PAID", "description": "Icon search engine"}
+        ]
+      },
+      "illustrations": [
+        {"name": "unDraw", "url": "https://undraw.co", "pricing": "FREE", "description": "Open-source illustrations"},
+        {"name": "Humaaans", "url": "https://humaaans.com", "pricing": "FREE", "description": "Mix-and-match people"},
+        {"name": "Open Doodles", "url": "https://opendoodles.com", "pricing": "FREE", "description": "Sketchy illustrations"},
+        {"name": "DrawKit", "url": "https://drawkit.com", "pricing": "FREE + PAID", "description": "Beautiful illustrations"},
+        {"name": "Ouch!", "url": "https://icons8.com/illustrations", "pricing": "FREE + PAID", "description": "Vector illustrations"},
+        {"name": "Blush", "url": "https://blush.design", "pricing": "FREE + PAID", "description": "Customizable illustrations"},
+        {"name": "Storyset", "url": "https://storyset.com", "pricing": "FREE", "description": "Animated illustrations"},
+        {"name": "Absurd Design", "url": "https://absurd.design", "pricing": "FREE + PAID", "description": "Surreal illustrations"}
+      ],
+      "typography": {
+        "font_libraries": [
+          {"name": "Google Fonts", "url": "https://fonts.google.com", "pricing": "FREE", "description": "Web font library"},
+          {"name": "Font Squirrel", "url": "https://fontsquirrel.com", "pricing": "FREE", "description": "Commercial use fonts"},
+          {"name": "Adobe Fonts", "url": "https://fonts.adobe.com", "pricing": "PAID", "description": "Adobe's font service"},
+          {"name": "Fontshare", "url": "https://fontshare.com", "pricing": "FREE", "description": "Quality free fonts"},
+          {"name": "DaFont", "url": "https://dafont.com", "pricing": "FREE", "description": "Font download archive"}
+        ],
+        "typography_tools": [
+          {"name": "Typewolf", "url": "https://typewolf.com", "pricing": "FREE", "description": "Font inspiration"},
+          {"name": "FontPair", "url": "https://fontpair.co", "pricing": "FREE", "description": "Font pairing tool"},
+          {"name": "Fontjoy", "url": "https://fontjoy.com", "pricing": "FREE", "description": "Font pairing generator"},
+          {"name": "Type Scale", "url": "https://type-scale.com", "pricing": "FREE", "description": "Typography scale calculator"}
+        ]
+      },
+      "stock_photos": [
+        {"name": "Unsplash", "url": "https://unsplash.com", "pricing": "FREE", "description": "Beautiful free photos"},
+        {"name": "Pexels", "url": "https://pexels.com", "pricing": "FREE", "description": "Free stock photos"},
+        {"name": "Pixabay", "url": "https://pixabay.com", "pricing": "FREE", "description": "Free images & videos"},
+        {"name": "Freepik", "url": "https://freepik.com", "pricing": "FREE + PAID", "description": "Graphic resources"},
+        {"name": "Shutterstock", "url": "https://shutterstock.com", "pricing": "PAID", "description": "Stock photography"},
+        {"name": "Getty Images", "url": "https://gettyimages.com", "pricing": "PAID", "description": "Premium stock photos"},
+        {"name": "Adobe Stock", "url": "https://stock.adobe.com", "pricing": "PAID", "description": "Adobe's stock library"},
+        {"name": "Burst by Shopify", "url": "https://burst.shopify.com", "pricing": "FREE", "description": "Free stock photos"},
+        {"name": "Nappy", "url": "https://nappy.co", "pricing": "FREE", "description": "Photos of Black people"}
+      ],
+      "mockups_ui_kits": [
+        {"name": "Mockuuups", "url": "https://mockuuups.studio", "pricing": "FREE + PAID", "description": "Device mockups"},
+        {"name": "Placeit", "url": "https://placeit.net", "pricing": "PAID", "description": "Mockup generator"},
+        {"name": "Smartmockups", "url": "https://smartmockups.com", "pricing": "FREE + PAID", "description": "Product mockups"},
+        {"name": "MockupWorld", "url": "https://mockupworld.co", "pricing": "FREE", "description": "Free PSD mockups"},
+        {"name": "UI8", "url": "https://ui8.net", "pricing": "PAID", "description": "UI design resources"},
+        {"name": "Creative Market", "url": "https://creativemarket.com", "pricing": "PAID", "description": "Design assets marketplace"}
+      ],
+      "design_inspiration": [
+        {"name": "Dribbble", "url": "https://dribbble.com", "pricing": "FREE", "description": "Design community"},
+        {"name": "Behance", "url": "https://behance.net", "pricing": "FREE", "description": "Creative portfolios"},
+        {"name": "Awwwards", "url": "https://awwwards.com", "pricing": "FREE", "description": "Web design awards"},
+        {"name": "Mobbin", "url": "https://mobbin.com", "pricing": "FREE + PAID", "description": "Mobile app design"},
+        {"name": "Page Flows", "url": "https://pageflows.com", "pricing": "PAID", "description": "User flow recordings"},
+        {"name": "UI Movement", "url": "https://uimovement.com", "pricing": "FREE", "description": "UI design inspiration"},
+        {"name": "Collect UI", "url": "https://collectui.com", "pricing": "FREE", "description": "Daily UI inspiration"},
+        {"name": "SiteInspire", "url": "https://siteinspire.com", "pricing": "FREE", "description": "Web design showcase"}
+      ],
+      "user_testing": [
+        {"name": "Maze", "url": "https://maze.design", "pricing": "FREEMIUM", "description": "User testing platform"},
+        {"name": "UserTesting", "url": "https://usertesting.com", "pricing": "PAID", "description": "User experience insights"},
+        {"name": "Hotjar", "url": "https://hotjar.com", "pricing": "FREEMIUM", "description": "Behavior analytics"},
+        {"name": "Optimal Workshop", "url": "https://optimalworkshop.com", "pricing": "FREEMIUM", "description": "User research tools"},
+        {"name": "UsabilityHub", "url": "https://usabilityhub.com", "pricing": "FREEMIUM", "description": "User feedback platform"},
+        {"name": "Lookback", "url": "https://lookback.io", "pricing": "PAID", "description": "User interviews"}
+      ],
+      "website_builders": [
+        {"name": "Webflow", "url": "https://webflow.com", "pricing": "FREEMIUM", "description": "Visual web development"},
+        {"name": "Framer", "url": "https://framer.com", "pricing": "FREEMIUM", "description": "Interactive web design"},
+        {"name": "Squarespace", "url": "https://squarespace.com", "pricing": "PAID", "description": "Website builder"},
+        {"name": "Wix", "url": "https://wix.com", "pricing": "FREEMIUM", "description": "Website creation platform"},
+        {"name": "WordPress", "url": "https://wordpress.com", "pricing": "FREEMIUM", "description": "Content management system"},
+        {"name": "Bubble", "url": "https://bubble.io", "pricing": "FREEMIUM", "description": "No-code app platform"},
+        {"name": "Ghost", "url": "https://ghost.org", "pricing": "FREEMIUM", "description": "Publishing platform"},
+        {"name": "Carrd", "url": "https://carrd.co", "pricing": "FREE + PAID", "description": "Simple site builder"}
+      ],
+      "collaboration_tools": [
+        {"name": "Slack", "url": "https://slack.com", "pricing": "FREEMIUM", "description": "Team communication"},
+        {"name": "Discord", "url": "https://discord.com", "pricing": "FREE", "description": "Voice and text chat"},
+        {"name": "Notion", "url": "https://notion.so", "pricing": "FREEMIUM", "description": "All-in-one workspace"},
+        {"name": "Miro", "url": "https://miro.com", "pricing": "FREEMIUM", "description": "Online whiteboard"},
+        {"name": "FigJam", "url": "https://figma.com/figjam", "pricing": "FREEMIUM", "description": "Online whiteboard by Figma"},
+        {"name": "Abstract", "url": "https://abstract.com", "pricing": "PAID", "description": "Design version control"},
+        {"name": "Zeplin", "url": "https://zeplin.io", "pricing": "FREEMIUM", "description": "Design handoff tool"}
+      ],
+      "animation_tools": [
+        {"name": "After Effects", "url": "https://adobe.com/products/aftereffects", "pricing": "PAID", "description": "Motion graphics software"},
+        {"name": "Lottie", "url": "https://airbnb.design/lottie", "pricing": "FREE", "description": "Animation library"},
+        {"name": "Principle", "url": "https://principleformac.com", "pricing": "PAID", "description": "Animation design tool"},
+        {"name": "Flinto", "url": "https://flinto.com", "pricing": "PAID", "description": "App prototyping tool"},
+        {"name": "Rive", "url": "https://rive.app", "pricing": "FREEMIUM", "description": "Interactive animations"},
+        {"name": "LottieFiles", "url": "https://lottiefiles.com", "pricing": "FREEMIUM", "description": "Animation platform"}
+      ],
+      "code_tools": [
+        {"name": "VS Code", "url": "https://code.visualstudio.com", "pricing": "FREE", "description": "Code editor"},
+        {"name": "Sublime Text", "url": "https://sublimetext.com", "pricing": "PAID", "description": "Text editor"},
+        {"name": "Atom", "url": "https://atom.io", "pricing": "FREE", "description": "Hackable text editor"},
+        {"name": "CodePen", "url": "https://codepen.io", "pricing": "FREEMIUM", "description": "Code playground"},
+        {"name": "GitHub", "url": "https://github.com", "pricing": "FREEMIUM", "description": "Code hosting platform"},
+        {"name": "GitLab", "url": "https://gitlab.com", "pricing": "FREEMIUM", "description": "DevOps platform"}
+      ]
+    },
+    "pricing_categories": {
+      "free": {
+        "description": "Completely free tools",
+        "count": 45,
+        "examples": ["Material Icons", "Unsplash", "Google Fonts", "DALL-E", "Pexels"]
+      },
+      "freemium": {
+        "description": "Free with paid upgrades",
+        "count": 35,
+        "examples": ["Figma", "Canva", "Notion", "Webflow", "Miro"]
+      },
+      "paid": {
+        "description": "Paid-only tools",
+        "count": 25,
+        "examples": ["Sketch", "Adobe Creative Suite", "Principle", "Squarespace"]
+      },
+      "free_plus_paid": {
+        "description": "Mix of free and paid options",
+        "count": 15,
+        "examples": ["Midjourney", "Icons8", "DrawKit", "Blush"]
+      }
+    }
+  }
+}
