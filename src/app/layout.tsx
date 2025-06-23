@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://design.30tools.com'),
   title: {
     default: "Design Tools Directory - Discover the Best Design Resources",
     template: "%s | Design Tools Directory"
