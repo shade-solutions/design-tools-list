@@ -97,30 +97,45 @@ export default async function Home() {
     .slice(0, 6);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="bg-gray-50">
+      {/* Hero Section */}
+      <section className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              Design Tools Directory
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+              Discover Amazing Design Tools
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Discover the best design tools, resources, and inspiration for your creative projects
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
+              A curated collection of the best design tools, resources, and inspiration 
+              to supercharge your creative workflow
             </p>
-            <div className="mt-4 text-sm text-gray-500">
-              {data.meta?.total_tools || 0}+ tools across {categories.length} categories
+            <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                <span>{data.meta?.total_tools || 0}+ Tools</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                <span>{categories.length} Categories</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
+                <span>Updated Daily</span>
+              </div>
             </div>
           </div>
         </div>
-      </header>
+      </section>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Featured Tools Section */}
-        <section className="mb-12">
-          <h2 className="text-xl font-semibold text-gray-900 mb-6">Featured Tools</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <section className="mb-16">
+          <div className="flex items-center justify-between mb-8">
+            <h2 className="text-2xl font-bold text-gray-900">Featured Tools</h2>
+            <span className="text-sm text-gray-500">Handpicked favorites</span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredTools.map((tool, index) => (
               <FeaturedToolCard key={`${tool.name}-${index}`} tool={tool} />
             ))}
@@ -129,7 +144,10 @@ export default async function Home() {
 
         {/* Categories Grid */}
         <section>
-          <h2 className="text-xl font-semibold text-gray-900 mb-6">Browse by Category</h2>
+          <div className="flex items-center justify-between mb-8">
+            <h2 className="text-2xl font-bold text-gray-900">Browse Categories</h2>
+            <span className="text-sm text-gray-500">Find tools by type</span>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {categories.map(([categoryKey, category]: [string, any]) => (
               <CategoryCard
@@ -141,17 +159,7 @@ export default async function Home() {
             ))}
           </div>
         </section>
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 mt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center text-sm text-gray-500">
-            <p>© 2024 Design Tools Directory. Data sourced from {data.meta?.source || 'Various sources'}</p>
-            <p className="mt-1">Last updated: {data.meta?.created_date || 'Recently'}</p>
-          </div>
-        </div>
-      </footer>
+      </div>
     </div>
   );
 }

@@ -71,23 +71,23 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex items-center gap-4 mb-4">
+    <div className="bg-gray-50">
+      {/* Category Header */}
+      <section className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="flex items-center gap-4 mb-6">
             <Link
               href="/"
-              className="text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-2"
+              className="text-blue-600 hover:text-blue-800 transition-colors flex items-center gap-2 text-sm"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
               Back to Home
             </Link>
           </div>
           <div className="flex items-center gap-4">
-            <span className="text-4xl">{categoryIcons[slug] || "🔧"}</span>
+            <span className="text-5xl">{categoryIcons[slug] || "🔧"}</span>
             <div>
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
                 {category.name}
@@ -95,40 +95,43 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
               <p className="text-lg text-gray-600 max-w-3xl">
                 {category.description}
               </p>
-              <div className="mt-2 text-sm text-gray-500">
-                {tools.length} tools available
+              <div className="mt-3 flex items-center gap-4 text-sm text-gray-500">
+                <span className="flex items-center gap-1">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                  </svg>
+                  {tools.length} tools
+                </span>
+                <span>•</span>
+                <span>Updated regularly</span>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </section>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Tools Grid */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {tools.length === 0 ? (
-          <div className="text-center py-12">
+          <div className="text-center py-16">
             <div className="text-gray-400 text-6xl mb-4">🔧</div>
-            <h3 className="text-lg font-medium text-gray-900 mb-1">No tools available</h3>
-            <p className="text-gray-600">Check back later for new tools in this category.</p>
+            <h3 className="text-xl font-medium text-gray-900 mb-2">No tools available</h3>
+            <p className="text-gray-600 mb-6">Check back later for new tools in this category.</p>
+            <Link 
+              href="/"
+              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Browse Other Categories
+            </Link>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {tools.map((tool: any, index: number) => (
               <ToolCard key={`${tool.name}-${index}`} tool={tool} />
             ))}
           </div>
         )}
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 mt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center text-sm text-gray-500">
-            <p>© 2024 Design Tools Directory. Data sourced from {data.meta?.source || 'Various sources'}</p>
-            <p className="mt-1">Last updated: {data.meta?.created_date || 'Recently'}</p>
-          </div>
-        </div>
-      </footer>
+      </div>
     </div>
   );
 }

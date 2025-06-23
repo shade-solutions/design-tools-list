@@ -1,6 +1,11 @@
 import Link from "next/link";
+import SearchComponent from "./SearchComponent";
 
-export default function Header() {
+interface HeaderProps {
+  data?: any;
+}
+
+export default function Header({ data }: HeaderProps) {
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4">
@@ -32,14 +37,21 @@ export default function Header() {
             </Link>
           </nav>
           
-          <a
-            href="https://www.toools.design/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Visit Source
-          </a>
+          <div className="flex items-center gap-4">
+            {data && (
+              <div className="hidden sm:block w-64">
+                <SearchComponent data={data} />
+              </div>
+            )}
+            <a
+              href="https://www.toools.design/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Visit Source
+            </a>
+          </div>
         </div>
       </div>
     </header>
